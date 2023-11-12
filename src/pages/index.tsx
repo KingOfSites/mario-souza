@@ -1,6 +1,10 @@
-import Banner from "@/Components/Banner";
-import Header from "@/Components/Header";
-import Sobre from "@/Components/Sobre";
+import Banner from "@/components/Banner";
+import Depoiments from "@/components/Depoimentos";
+import Form from "@/components/Form";
+import Header from "@/components/Header";
+import Numbers from "@/components/Numbers";
+import Services from "@/components/Services";
+import Sobre from "@/components/Sobre";
 
 export default function Home() {
   return (
@@ -8,6 +12,10 @@ export default function Home() {
       <Header />
       <Banner />
       <Sobre />
+      <Numbers />
+      <Services />
+      <Depoiments />
+      <Form />
     </>
   );
 }

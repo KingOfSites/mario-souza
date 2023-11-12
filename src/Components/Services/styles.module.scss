@@ -1,0 +1,152 @@
+.container {
+  background: #f5f5f5;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 104px;
+  max-width: 1440px;
+  margin-inline: auto;
+  padding-inline: 194px;
+  padding-top: 210px;
+  padding-bottom: 220px;
+}
+
+.titleBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: -5px 0px 0px 0px #b9b43c;
+  padding-left: 32px;
+
+  h4 {
+    color: #222;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    opacity: 0.5;
+  }
+
+  h2 {
+    color: #15242d;
+    font-family: Merriweather;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 591px;
+    letter-spacing: 0.26px;
+  }
+}
+
+.mosaicoServices {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 296px;
+  height: 391px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  padding-bottom: 100px;
+  padding-inline: 22px;
+  padding-top: 32px;
+  cursor: pointer;
+  border: 0.21px solid #0000005d;
+
+  &:hover {
+    background: #0c0c0c;
+
+    h6 {
+      color: #b9b43c !important;
+    }
+    p {
+      color: #fff !important;
+    }
+  }
+
+  h6 {
+    color: #000;
+    font-family: Lato;
+    font-size: 24.615px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  p {
+    color: #000;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+.lastCard {
+  width: 296px;
+  height: 391px;
+  background: #0c0c0c;
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  padding-bottom: 100px;
+  padding-inline: 22px;
+  padding-top: 72px;
+  cursor: pointer;
+  border: 0.21px solid #0000005d;
+
+  h5 {
+    color: #fff;
+    font-family: Lato;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .buttonCTA {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1.368px solid #222;
+    background: #b9b43c;
+    cursor: pointer;
+    padding-inline: 15px;
+    padding-block: 18px;
+
+    p {
+      color: #222;
+      font-family: Lato;
+      font-size: 15.513px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+}
+
+.numberCard {
+  border-radius: 100%;
+  background: #202020;
+  width: 64.742px;
+  height: 64.742px;
+  padding: 14px;
+  p {
+    color: #fff;
+    font-family: Lato;
+    font-size: 31.799px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}

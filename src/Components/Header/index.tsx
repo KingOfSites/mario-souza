@@ -8,7 +8,6 @@ export default function Header() {
           <img src="/logoMario.svg" />
           <div className={styles.rightSide}>
             <ul>
-              <li>início</li>
               <li>sobre</li>
               <li>serviços</li>
               <li>contato</li>

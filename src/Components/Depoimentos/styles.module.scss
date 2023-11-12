@@ -1,0 +1,142 @@
+.container {
+  background: #0c0c0c;
+  display: flex;
+  align-items: center;
+  padding-left: 254px;
+  gap: 176px;
+  padding-top: 320px;
+  padding-bottom: 350px;
+  position: relative;
+
+  @media only screen and (min-width: 1440px) {
+    padding-left: 300px;
+  }
+}
+
+.depoimentosText {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 200px;
+  margin-left: -100px;
+  opacity: 0.04;
+  background: linear-gradient(
+    94deg,
+    #fff 21.46%,
+    rgba(255, 255, 255, 0) 108.68%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  backdrop-filter: blur(26.5px);
+  font-family: Merriweather;
+  font-weight: 700;
+  margin-bottom: 4%;
+}
+
+.card {
+  border-radius: 10px;
+  background: #fefafe;
+  width: 313px;
+  scroll-snap-align: start;
+  height: 400px;
+  padding-inline: 25px;
+  padding-top: 43px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  h6 {
+    color: #000;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: #151515;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+  }
+
+  .topCard {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    img {
+      width: 108px;
+      object-fit: cover;
+    }
+  }
+
+  .depoimentPhoto {
+    width: 107px;
+    height: 108.814px;
+    border-radius: 50%;
+    margin-bottom: 18px;
+  }
+}
+
+.leftSide {
+  margin-left: max(0px, (100% - 1440px) / 2);
+  display: flex;
+  flex-direction: column;
+  gap: 74px;
+
+  p {
+    color: #fff;
+    font-family: Lato;
+    font-size: 24.615px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 448px;
+  }
+}
+
+.rightSide {
+  overflow-x: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  min-width: 500px;
+  gap: 10px;
+  scroll-snap-type: x mandatory;
+}
+
+.titleBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: -5px 0px 0px 0px #b9b43c;
+  padding-left: 32px;
+
+  h4 {
+    color: #fff;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    opacity: 0.5;
+  }
+
+  h2 {
+    color: #fff;
+    font-family: Merriweather;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 591px;
+    letter-spacing: 0.26px;
+  }
+}
