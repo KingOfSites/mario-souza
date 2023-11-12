@@ -1,0 +1,122 @@
+.container {
+  background: #0c0c0c;
+  padding-top: 68px;
+  padding-bottom: 37px;
+}
+
+.content {
+  padding-inline: 194px;
+  max-width: 1440px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 250px;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  width: 344px;
+  gap: 30px;
+
+  p {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  span {
+    color: #fff;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  img {
+    width: 86px;
+    height: 102px;
+  }
+
+  .rowSocial {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+
+    .wrapSocialImage {
+      border-radius: 50%;
+      padding: 10px;
+      background: rgba(255, 255, 255, 0.1);
+      cursor: pointer;
+
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
+
+.rightSide {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+
+  ul {
+    margin-top: 42px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  h4 {
+    color: #fff;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  li {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+.lastFooter {
+  background: #0c0c0c;
+
+  hr {
+    max-width: 1440px;
+    margin-inline: auto;
+    padding-inline: 194px;
+    width: 1106px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    height: 1px;
+  }
+
+  p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.3);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 32px;
+    padding-bottom: 70px;
+  }
+}
