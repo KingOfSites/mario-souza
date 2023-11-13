@@ -1,12 +1,12 @@
-import Banner from "../components/Banner";
-import Blog from "../components/Blog";
-import Depoiments from "../components/Depoimentos";
-import Footer from "../components/Footer";
-import Form from "../components/Form";
-import Header from "../components/Header";
-import Numbers from "../components/Numbers";
-import Services from "../components/Services";
-import Sobre from "../components/Sobre";
+import Banner from "../Components/Banner";
+import Blog from "../Components/Blog";
+import Depoiments from "../Components/Depoimentos";
+import Footer from "../Components/Footer";
+import Form from "../Components/Form";
+import Header from "../Components/Header";
+import Numbers from "../Components/Numbers";
+import Services from "../Components/Services";
+import Sobre from "../Components/Sobre";
 
 export default function Home() {
   return (
