@@ -3,7 +3,7 @@ import { useState } from "react";
 import styles from "./styles.module.scss";
 
 export default function Header() {
-  const [drawerOpen, setDrawerOpen] = useState(true);
+  const [drawerOpen, setDrawerOpen] = useState(false);
   const toggleDrawer = () => {
     setDrawerOpen(!drawerOpen);
   };
