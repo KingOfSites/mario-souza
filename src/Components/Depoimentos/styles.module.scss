@@ -11,6 +11,15 @@
   @media only screen and (min-width: 1440px) {
     padding-left: 300px;
   }
+
+  @media only screen and (max-width: 768px) {
+    padding-left: 20px;
+    flex-direction: column;
+    gap: 29px;
+    align-items: baseline;
+    padding-top: 83px;
+    padding-bottom: 280px;
+  }
 }
 
 .depoimentosText {
@@ -32,6 +41,12 @@
   font-family: Merriweather;
   font-weight: 700;
   margin-bottom: 4%;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 65.968px;
+    margin-left: 20px;
+    margin-bottom: 74px;
+  }
 }
 
 .card {
@@ -98,6 +113,10 @@
     font-weight: 400;
     line-height: normal;
     width: 448px;
+
+    @media only screen and (max-width: 768px) {
+      display: none;
+    }
   }
 }
 
@@ -127,6 +146,17 @@
     letter-spacing: 0.9px;
     text-transform: uppercase;
     opacity: 0.5;
+
+    @media only screen and (max-width: 768px) {
+      color: #fff;
+      font-family: Lato;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 100%; /* 16px */
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+    }
   }
 
   h2 {
@@ -138,5 +168,59 @@
     line-height: normal;
     width: 591px;
     letter-spacing: 0.26px;
+
+    @media only screen and (max-width: 768px) {
+      color: #fff;
+      font-family: Merriweather;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 0.26px;
+      width: 100%;
+    }
+  }
+}
+
+.swiperDesktop {
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.swiperMobile {
+  position: relative;
+  @media only screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.swiperSlide {
+  width: 200px;
+}
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+
+  @media only screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.slide {
+  width: 170px;
+  transition: transform 0.5s ease;
+}
+
+.rowButton {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  gap: 30px;
+  margin-top: 55px;
+
+  @media only screen and (min-width: 768px) {
+    display: none;
   }
 }

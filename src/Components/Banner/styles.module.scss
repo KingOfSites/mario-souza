@@ -7,6 +7,11 @@
   align-items: center;
   padding-bottom: 222px;
   padding-top: 252px;
+
+  @media only screen and (max-width: 768px) {
+    padding-top: 192px;
+    padding-bottom: 182px;
+  }
 }
 
 .videoBackground {
@@ -44,6 +49,11 @@
   flex-direction: column;
   gap: 38px;
 
+  @media only screen and (max-width: 768px) {
+    padding-inline: 20px;
+    gap: 16px;
+  }
+
   h4 {
     color: var(--brand-pink-light, #f3efeb);
     font-family: Plus Jakarta Sans;
@@ -52,6 +62,16 @@
     font-weight: 700;
     letter-spacing: 0.167px;
     text-transform: uppercase;
+
+    @media only screen and (max-width: 768px) {
+      color: var(--brand-pink-light, #f3efeb);
+      font-family: Plus Jakarta Sans;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 27px; /* 192.857% */
+      letter-spacing: 0.167px;
+    }
   }
 
   h1 {
@@ -63,6 +83,17 @@
     line-height: 68.4px;
     letter-spacing: 0.26px;
     text-transform: uppercase;
+
+    @media only screen and (max-width: 768px) {
+      color: #fff;
+      font-family: Merriweather;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 33.6px; /* 140% */
+      letter-spacing: 0.26px;
+      text-transform: uppercase;
+    }
   }
 
   p {
@@ -72,6 +103,16 @@
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.167px;
+
+    @media only screen and (max-width: 768px) {
+      color: #fff;
+      font-family: Lato;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22.4px; /* 140% */
+      letter-spacing: 0.167px;
+    }
   }
 
   button {
@@ -86,5 +127,13 @@
     cursor: pointer;
     background: #b9b43c;
     max-width: 274px;
+
+    @media only screen and (max-width: 768px) {
+      max-width: 100%;
+      padding-block: 5px;
+      font-size: 14px;
+      height: 52px;
+      border: none;
+    }
   }
 }

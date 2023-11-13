@@ -11,6 +11,13 @@
   margin-inline: auto;
   padding-top: 171px;
   padding-bottom: 208px;
+
+  @media only screen and (max-width: 768px) {
+    padding-inline: 20px;
+    gap: 56px;
+    padding-top: 66px;
+    padding-bottom: 133px;
+  }
 }
 
 .titleBlock {
@@ -19,6 +26,10 @@
   gap: 10px;
   box-shadow: -5px 0px 0px 0px #b9b43c;
   padding-left: 32px;
+
+  @media only screen and (max-width: 768px) {
+    gap: 16px;
+  }
 
   h4 {
     color: #fff;
@@ -29,6 +40,17 @@
     letter-spacing: 0.9px;
     text-transform: uppercase;
     opacity: 0.5;
+
+    @media only screen and (max-width: 768px) {
+      color: #fff;
+      font-family: Lato;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 100%;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+    }
   }
 
   h2 {
@@ -40,6 +62,17 @@
     line-height: normal;
     width: 591px;
     letter-spacing: 0.26px;
+
+    @media only screen and (max-width: 768px) {
+      width: 100%;
+      color: #fff;
+      font-family: Merriweather;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 0.26px;
+    }
   }
 }
 
@@ -47,6 +80,10 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 
 .card {
@@ -61,6 +98,10 @@
   gap: 12px;
   padding: 18px;
 
+  @media only screen and (max-width: 768px) {
+    max-width: 100%;
+  }
+
   .cardTitle {
     display: flex;
     align-items: baseline;
@@ -71,6 +112,10 @@
       font-size: 82.233px;
       font-style: normal;
       font-weight: 700;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 61.005px;
+      }
     }
 
     h6 {
@@ -79,6 +124,10 @@
       font-size: 42px;
       font-style: normal;
       font-weight: 700;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 31.005px;
+      }
     }
   }
 

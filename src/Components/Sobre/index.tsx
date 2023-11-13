@@ -5,7 +5,8 @@ export default function Sobre() {
     <>
       <section className={styles.container}>
         <div className={styles.leftSide}>
-          <img src="/sobrefoto.webp" />
+          <img src="/sobrefoto.webp" className={styles.fotodesktop} />
+          <img src="/sobreFotoMobile.png" className={styles.fotomobile} />
         </div>
         <div className={styles.rightSide}>
           <div className={styles.title}>

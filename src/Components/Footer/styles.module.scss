@@ -12,6 +12,12 @@
   align-items: center;
   justify-content: space-between;
   gap: 250px;
+
+  @media only screen and (max-width: 768px) {
+    padding-inline: 20px;
+    flex-direction: column;
+    gap: 65px;
+  }
 }
 
 .leftSide {
@@ -27,6 +33,10 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 16px;
+    }
   }
 
   span {
@@ -36,11 +46,19 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    @media only screen and (max-width: 768px) {
+      font-size: 16px;
+    }
   }
 
   img {
     width: 86px;
     height: 102px;
+
+    @media only screen and (max-width: 768px) {
+      width: 76px;
+      height: 92px;
+    }
   }
 
   .rowSocial {
@@ -67,6 +85,10 @@
   align-items: baseline;
   justify-content: space-between;
   width: 100%;
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    gap: 65px;
+  }
 
   ul {
     margin-top: 42px;
@@ -74,6 +96,10 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
+
+    @media only screen and (max-width: 768px) {
+      gap: 20px;
+    }
   }
 
   h4 {
@@ -83,6 +109,10 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 20px;
+    }
   }
 
   li {
@@ -92,6 +122,10 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 16px;
+    }
   }
 }
 
@@ -118,5 +152,11 @@
     line-height: normal;
     margin-top: 32px;
     padding-bottom: 70px;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 14px;
+      width: 236px;
+      margin-inline: auto;
+    }
   }
 }

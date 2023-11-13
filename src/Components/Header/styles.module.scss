@@ -23,11 +23,19 @@
   padding-block: 28px;
   max-width: 1440px;
   margin-inline: auto;
+
+  @media only screen and (max-width: 768px) {
+    padding-inline: 20px;
+    padding-block: 18px;
+  }
 }
 
 .rightSide {
   display: flex;
   align-items: center;
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
   ul {
     display: flex;
     gap: 23px;
@@ -60,5 +68,18 @@
     background: #b9b43c;
     color: var(--brand-blue, #0c0c0c);
     border: none;
+  }
+}
+
+.logo {
+  @media only screen and (max-width: 768px) {
+    width: 45px;
+    height: 53.54px;
+  }
+}
+
+.hamburguerMario {
+  @media only screen and (min-width: 768px) {
+    display: none;
   }
 }

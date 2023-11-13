@@ -5,7 +5,7 @@ export default function Header() {
     <>
       <section className={styles.container}>
         <div className={styles.content}>
-          <img src="/logoMario.svg" />
+          <img src="/logoMario.svg" className={styles.logo} />
           <div className={styles.rightSide}>
             <ul>
               <li>sobre</li>
@@ -16,6 +16,7 @@ export default function Header() {
               <button className={styles.login}>entre em contato</button>
             </ul>
           </div>
+          <img src="/hamburguerMario.svg" className={styles.hamburguerMario} />
         </div>
       </section>
     </>

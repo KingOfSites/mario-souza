@@ -11,6 +11,13 @@
   padding-inline: 194px;
   padding-top: 210px;
   padding-bottom: 220px;
+
+  @media only screen and (max-width: 768px) {
+    padding-inline: 20px;
+    padding-top: 82px;
+    gap: 48px;
+    padding-bottom: 64px;
+  }
 }
 
 .titleBlock {
@@ -29,6 +36,17 @@
     letter-spacing: 0.9px;
     text-transform: uppercase;
     opacity: 0.5;
+
+    @media only screen and (max-width: 768px) {
+      color: #222;
+      font-family: Lato;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 100%; /* 16px */
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+    }
   }
 
   h2 {
@@ -40,6 +58,17 @@
     line-height: normal;
     width: 591px;
     letter-spacing: 0.26px;
+
+    @media only screen and (max-width: 768px) {
+      color: #15242d;
+      font-family: Merriweather;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 0.26px;
+      width: 100%;
+    }
   }
 }
 
@@ -47,6 +76,10 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 
 .card {
@@ -61,6 +94,12 @@
   padding-top: 32px;
   cursor: pointer;
   border: 0.21px solid #0000005d;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    gap: 25px;
+    height: 370px;
+  }
 
   &:hover {
     background: #0c0c0c;
@@ -80,6 +119,10 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 22px;
+    }
   }
 
   p {
@@ -89,6 +132,10 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 18px;
+    }
   }
 }
 
@@ -104,6 +151,12 @@
   padding-top: 72px;
   cursor: pointer;
   border: 0.21px solid #0000005d;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    gap: 56px;
+    height: 370px;
+  }
 
   h5 {
     color: #fff;
